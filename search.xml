@@ -4,24 +4,11 @@
   
     
     <entry>
-      <title>second</title>
-      <link href="/2023/03/06/second/"/>
-      <url>/2023/03/06/second/</url>
+      <title>关于unraid装机体验的失败记录</title>
+      <link href="/2023/03/06/%E5%85%B3%E4%BA%8Eunraid%E8%A3%85%E6%9C%BA%E4%BD%93%E9%AA%8C%E7%9A%84%E5%A4%B1%E8%B4%A5%E8%AE%B0%E5%BD%95/"/>
+      <url>/2023/03/06/%E5%85%B3%E4%BA%8Eunraid%E8%A3%85%E6%9C%BA%E4%BD%93%E9%AA%8C%E7%9A%84%E5%A4%B1%E8%B4%A5%E8%AE%B0%E5%BD%95/</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>retry</title>
-      <link href="/2023/03/06/retry/"/>
-      <url>/2023/03/06/retry/</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>记录一下自己装unraid的一些经验</p><p>下载的话是用的开心版本, 发现usb3.0的64g闪迪u盘无法安装系统, 换了个奇怪的32g 2.0盘就好了</p><p>然而这块盘由于太过突出放到脚下的时候一脚把接口带主板usb口踹掉了(</p><p>按照网上的流程设置一下共享</p><p>这里发现windows文件管理里面输入\\192.168.1.10连接不上, 这里注意下在unraid里面新建一个共享用户, 并且在高级安全 windows defender 防火墙中把smbdirect….这个给打开</p><p><img src="/../images/image-20230302154739472.png" alt="image-20230302154739472"></p><p>之后就能正常连接了</p><p>后面折腾了两天的硬件直通, 然而最终还是失败了, 而且最终为了开安卓虚拟机和远程操控还换回了win, 令人感叹</p><p>这是nanamo的大失败</p>]]></content>
       
       
       
