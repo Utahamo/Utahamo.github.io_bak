@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>记录一次powershell报错的修复</title>
+      <link href="/2023/03/23/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1powershell%E6%8A%A5%E9%94%99%E7%9A%84%E4%BF%AE%E5%A4%8D/"/>
+      <url>/2023/03/23/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1powershell%E6%8A%A5%E9%94%99%E7%9A%84%E4%BF%AE%E5%A4%8D/</url>
+      
+        <content type="html"><![CDATA[<p>此问题已复现并解决</p><p>打开powershell的时候, 爆出如下错误</p><p><img src="C:\Users\momo\AppData\Roaming\Typora\typora-user-images\image-20230321093529378.png" alt="image-20230321093529378"></p><p>我是比较好奇的, 搜了一下发现网上大部分都是使用conda activate时会报错, 我也试了一下</p><p><img src="C:\Users\momo\AppData\Roaming\Typora\typora-user-images\image-20230321093635010.png" alt="image-20230321093635010"></p><p>果然, 上网搜了一下, 一般是和环境变量的配置有关, 想起来前几天配置了一下Java的环境, 大概和这个有关</p><p>打开了环境变量, 查看系统变量中的path填写是否有误</p><p><img src="C:\Users\momo\AppData\Roaming\Typora\typora-user-images\image-20230321093819337.png" alt="image-20230321093819337"></p><p>后面的” ; “明显不太合适, 删掉了看一下情况</p><p><img src="C:\Users\momo\AppData\Roaming\Typora\typora-user-images\image-20230321093911869.png" alt="image-20230321093911869"></p><p>成功, 系统变量中;是用于两个变量之间的, 只有一条的话还是不能用;的</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于unraid装机体验的失败记录</title>
       <link href="/2023/03/06/%E5%85%B3%E4%BA%8Eunraid%E8%A3%85%E6%9C%BA%E4%BD%93%E9%AA%8C%E7%9A%84%E5%A4%B1%E8%B4%A5%E8%AE%B0%E5%BD%95/"/>
       <url>/2023/03/06/%E5%85%B3%E4%BA%8Eunraid%E8%A3%85%E6%9C%BA%E4%BD%93%E9%AA%8C%E7%9A%84%E5%A4%B1%E8%B4%A5%E8%AE%B0%E5%BD%95/</url>
